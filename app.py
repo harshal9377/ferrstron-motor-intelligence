@@ -13,7 +13,7 @@ from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
 
 st.set_page_config(
-    page_title="Ferrstron | Motor Test Intelligence",
+    page_title="Motor Test Intelligence",
     page_icon="⚙️",
     layout="wide"
 )
