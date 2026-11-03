@@ -570,7 +570,8 @@ cleaning_rows = [{
     "Original rows": cleaning_a["original"],
     "Rows retained": cleaning_a["retained"],
     "Rows removed": cleaning_a["removed"],
-    "Missing / non-numeric required fields": cleaning_a["missing_required"],
+    "Missing / non-numeric required fields": cleaning_a["missing_or_non_numeric_required"],
+    "Non-finite required values": cleaning_a["non_finite_required"],
     "Negative RPM / voltage / current": cleaning_a["negative_measurements"],
 }]
 if cleaning_b is not None:
